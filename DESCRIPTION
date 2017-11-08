@@ -1,0 +1,11 @@
+Package: htmlAsData
+Title: Convert HTML src code to useful data set for text analysis
+Version: 0.0.0.9000
+Authors@R: person("Ross", "Ireland", email = "ross@trendlock.com.au", role = c("aut", "cre"))
+Description: Convert HTML src code to useful data set for text analysis
+Depends: tidyverse, stringr, rvest
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat
+RoxygenNote: 6.0.1
