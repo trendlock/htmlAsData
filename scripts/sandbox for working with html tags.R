@@ -2,7 +2,7 @@
 
 
 
-df <- build_text_as_data(find::this("/internal data storage/speech data/html test"),raw_html = T)
+df <- build_text_as_data()
 
 
 #  run on all html pages
