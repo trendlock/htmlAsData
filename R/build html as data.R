@@ -1,12 +1,11 @@
 
 #' @export
 
-build_html_as_data <- function(h, file.name, join_urls) {
+build_html_as_data <- function(h, file.name) {
 
   message(file.name)
 
-  h_r <- h %>%
-    read_html()
+  h_r <- h
 
   processed <- h_r %>%
     as.character() %>%
